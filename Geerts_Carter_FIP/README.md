@@ -14,10 +14,10 @@ Download the files and open index.html
 
 ## Programs Used
 
-Sublime Text<br>
-Photoshop<br>
-Illustrator<br>
-After Effects<br>
+Sublime Text
+Photoshop
+Illustrator
+After Effects
 Premiere Pro
 
 ## Made by Carter J Geerts, 2019

@@ -8,7 +8,6 @@ p
 }
 
 /*basic reset*/
-/*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
 
 div,p,body,header,footer,section,article,nav 
 { 
@@ -21,7 +20,6 @@ img
 	border: none;
 	margin: 0; 
 	padding: 0;
-	
 }
 
 /*html selectors*/
@@ -38,7 +36,19 @@ nav
 {
 	font-family: "Century Gothic", Century Gothic, sans-serif;
 	font-size: 12px;
-	color: #36356D;
+	color: #450909;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  color: #A22121;
+  border-color: #A22121;
+  font-family: "Century Gothic", Century Gothic, sans-serif;
+  font-weight: bold;
+  background-color: #E7695E;
+  font-size: 20px;
 }
 }
 
@@ -49,12 +59,12 @@ a:visited is for visited, and just a applies to both.*/
 
 a:link, a:visited 
 { 
- 	text-decoration:none; 	
+ 	text-decoration: none; 	
 }
 
 a:hover, a:active 
 { 
-	text-decoration:none; 
+	text-decoration: overline; 
 }
 
 /*hide elements from browser but show for doc outline*/
@@ -71,6 +81,7 @@ a:hover, a:active
 	height: 20px;
 }
 
+
 /*Site Container*/
 /*This is essentially a box that we place the whole site in.  
 We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 20px (960px) so it fits on 1024x768 screens.*/
@@ -78,9 +89,9 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #siteContainer 
 {
 	margin: 0 auto;
-	width: 1200px;
-	padding-left: 10px;
-	padding-right: 10px;
+	width: 1250px;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
 /*This is a flex container*/
@@ -105,28 +116,25 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #mainNav 
 {
 	padding-top: 200px;
-	padding-right: 100px;
+	padding-right: 50px;
 	font-size: 30px;
-	border: line;
 	margin-left: auto;
-	width: 550px;
-	
+	width: 650px;
+
 }
 
 #submit {
+
   display: block;
   width: 130px;
   height: 45px;
   text-align: center;
-  margin-top: 30px;
-  color: #000;
+  color: #A22121;
+  border-color: #A22121;
+  font-family: "Century Gothic", Century Gothic, sans-serif;
   font-weight: bold;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: #fff;
-  font-size: 15px;
+  background-color: #E7695E;
+  font-size: 20px;
 }
 
 #promo 
@@ -134,6 +142,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	margin-top: 40px;
 	border-bottom: solid 1px #DDD;
 	padding-bottom: 40px;
+	padding-left: 0px;
 	display: flex;
 	flex-direction: row;
   	justify-content: flex-start;
@@ -146,8 +155,15 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #promoImage 
 {
+	border-style: solid;
+	border-top-width: 7px;
+	border-left-width: 7px;
+	border-right-width: 7px;
+	border-bottom-width: 7px;
+	border-color: #7C0C0C;
 	margin-left: auto;
-	width: 280px;
+	width: 519px;
+	height: 345px;
 }
 
 #productInfo 
@@ -160,15 +176,11 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	padding-bottom: 20px;
 }
 
-/*Get rid of this, here just to give different height to productInfo*/
-#productInfo p 
-{
-	line-height: 300px;
-}
-
 .productDesc 
 {
-	width: 200px;
+	width: 700px;
+	height: 160px;
+	padding-top: 30px;
 }
 
 #mainFooter 
@@ -189,10 +201,15 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #copyRight 
 {
 	margin-left: auto;
-	width: 310px;
+	width: 225px;
+	background-color: #DAB8C3;
+	border-color: #F24A4A;
+	border-style: solid;
+	border-top-width: 7px;
+	border-left-width: 7px;
+	border-right-width: 7px;
+	border-bottom-width: 7px;
 }
-
-/*Page 2 - Notice we are using one style sheet for all of the pages*/
 
 #contentCon {
 	margin-top: 40px;
@@ -203,12 +220,6 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
   	justify-content: flex-start;
 }
 
-/*Get rid of this, here just to give different height to promo*/
-#contentCon p 
-{
-	line-height: 630px;
-}
-
 #content1 
 {
 	width: 440px;
@@ -216,11 +227,9 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #content2 
 {
-	margin-left: auto;
+	padding-left: 288px;
 	width: 440px;
 }
-
-/*Page 3*/
 
 #productImages 
 {
@@ -232,7 +241,6 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
   	justify-content: space-between;
 }
 
-/*Get rid of this, here just to give different height*/
 #productImages p
 {
 	line-height: 250px;
@@ -243,7 +251,6 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	width: 280px;
 }
 
-
 #contentAreaBig
 {
 	margin-top: 15px;
@@ -251,26 +258,22 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	padding-bottom: 15px;
 }
 
-/*Get rid of this, here just to give different height*/
-#contentAreaBig p 
-{
-	line-height: 300px;
 }
 
 #promoImageBig
 {
-	width: 920px;
+	width: 520px;
+	padding-left: 80px;
 }
 
-
-/*Page 4*/
-
-.productDescLargeLeft 
+#productDescLargeLeft 
 {
-	width: 410px;
+	padding-top: 20px;
+	height: 200px;
+	width: 1260px;
 }
 
-.productDescLargeRight 
+#productDescLargeRight 
 {
 	width: 410px;
 }
