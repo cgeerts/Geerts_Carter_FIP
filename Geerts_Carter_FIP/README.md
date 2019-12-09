@@ -15,9 +15,9 @@ Download the files and open index.html
 ## Programs Used
 
 Sublime Text<br>
-Photoshop,
-Illustrator,
-After Effects,
+Photoshop<br>
+Illustrator<br>
+After Effects<br>
 Premiere Pro
 
 ## Made by Carter J Geerts, 2019
