@@ -12,6 +12,16 @@ All you need is an up-to-date web browser
 Git is required for local installation.
 Download the files and open index.html
 
+## Roadmap
+
+Business Idea
+Rough layout in Photoshop
+Take Pictures
+Gather Images
+Edit Images & Pictures
+Design layout in Sublime
+Add resources
+
 ## Programs Used
 
 Sublime Text
